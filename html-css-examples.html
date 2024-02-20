@@ -4,25 +4,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Basics Tutorial</title>
+    <title>HTML CSS Basics Tutorial</title>
+
+
+   <link rel="stylesheet" href="styles.css" />
+   <link rel="stylesheet" href="reg-form.css" />
+
   </head>
 
   <body>
 
     <header>
-        <h1>HTML Tutorial</h1>
+        <h1>HTML CSS Tutorial</h1>
     </header>
 
-    <nav>
+    <nav class="menu">
         <a href="#">Home</a>
-        <a href="#">Login</a>
+        <a href="#" id="login-link">Login</a>
         <a href="#">Register</a>
         <a href="#">Contact</a>
     </nav>
 
-    <div>
+    <div class="container">
         <form>
-            <h3>Registration Form</h3>
+            <h3 id="form-title">Registration Form</h3>
             <hr/>
             <label>First Name:</label>
             <input type="text" />
@@ -72,6 +77,6 @@
         </table>
     </div>
 
-    <footer>&copy; 2024 Lexicon</footer>
+    <footer style="background-color: black;color: white;text-align: center;padding: 30px;">&copy; 2024 Lexicon</footer>
   </body>
 </html>
